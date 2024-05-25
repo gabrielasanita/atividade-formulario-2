@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Formulário de login</h1>
+    <form action="/submit_form" method="post">
+        <div>
+          <label for="email">E-mail:</label><br>
+          <input type="email" id="email" name="email" required><br>
+        </div>
+        <div>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" required><br>
+        </div>
+        <div class="botoes">
+            <input type="submit" value="Efetuar login">
+            <input type="reset" value="Cancelar">
+          </div>
+    </form>
+</body>
+</html>
